@@ -1,0 +1,28 @@
+html {
+    background-color:  rgb(90, 9, 0);
+    color: white;
+}
+body {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+input {
+    margin : 1rem;
+    color: white;
+    background-color: gray;
+}
+#submit-btn {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    width: 20%;
+    border-radius: 25px;
+    border-width: .2rem;
+    color: white;
+    background-color: gray;
+}
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}

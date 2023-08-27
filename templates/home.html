@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Make Mad Libs!{% endblock %}
+
+{% block content %}
+<h1>What Madlibs will you create?</h1>
+<form id="form_data" name="form_data" action="http://127.0.0.1:5000/submit" method="post">
+    {% for input_item in story.prompts %}
+    <label>{{ input_item }}: </label>
+    <input type="text" name="{{ input_item }}"><br>
+    {% endfor %}
+    <input type="submit" value="Submit" id="submit-btn">
+</form>
+{% endblock %}
